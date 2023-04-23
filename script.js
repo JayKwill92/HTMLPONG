@@ -2,7 +2,7 @@ const buttonClickSound = new Audio('button.mp3');
 const wallHitSound = new Audio('wall_hit.mp3');
 const paddleHitSound = new Audio('paddle_hit.mp3');
 const scoreSound = new Audio('score.mp3');
-const loseSound = new Audio('Lose.mp3');
+const loseSound = new Audio('lose.mp3');
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
