@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pong Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="gameContainer">
+    <div id="scoreboard">Player: 0 | Computer: 0</div>
+    <canvas id="gameCanvas" width="1400" height="900"></canvas>
+    <button id="startButton">Start Game</button>
+    <button id="resetButton" style="position: absolute; left: 50%; bottom: 10px; transform: translateX(-50%); display: none;">Reset</button>
+	<button id="serveButton" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">Serve</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
